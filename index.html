@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplicador de Matrizes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Multiplicador de Matrizes</h1>
+        <div class="input-container">
+            <div>
+                <h3>Matriz A</h3>
+                <textarea id="matrixA" placeholder="Digite os valores da matriz A separados por vírgula e linha por ponto e vírgula (ex: 1,2;3,4)"></textarea>
+            </div>
+            <div>
+                <h3>Matriz B</h3>
+                <textarea id="matrixB" placeholder="Digite os valores da matriz B separados por vírgula e linha por ponto e vírgula (ex: 5,6;7,8)"></textarea>
+            </div>
+        </div>
+        <button onclick="multiplyMatrices()">Multiplicar</button>
+        <div id="result">
+            <h3>Resultado:</h3>
+            <p id="resultMatrix"></p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <img src="fundo/rodape.jpg" alt="Faixa no Rodapé">
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Website desenvolvido por Marcos Daniel para auxiliar o professor de matemática Matheus Queiroz. IFPB - Campus Princesa Isabel -->
+</body>
+</html>
